@@ -14,6 +14,7 @@
 		8D1FE7571BC49726005AE4BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1FE7551BC49726005AE4BD /* LaunchScreen.storyboard */; };
 		8D1FE7621BC49726005AE4BD /* Simple_TableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FE7611BC49726005AE4BD /* Simple_TableTests.swift */; };
 		8D1FE76D1BC49726005AE4BD /* Simple_TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FE76C1BC49726005AE4BD /* Simple_TableUITests.swift */; };
+		8D1FE77B1BC49C54005AE4BD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FE77A1BC49C54005AE4BD /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8D1FE7681BC49726005AE4BD /* Simple TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple TableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1FE76C1BC49726005AE4BD /* Simple_TableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_TableUITests.swift; sourceTree = "<group>"; };
 		8D1FE76E1BC49726005AE4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1FE77A1BC49C54005AE4BD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8D1FE74C1BC49726005AE4BD /* AppDelegate.swift */,
 				8D1FE74E1BC49726005AE4BD /* ViewController.swift */,
+				8D1FE77A1BC49C54005AE4BD /* TableViewController.swift */,
 				8D1FE7501BC49726005AE4BD /* Main.storyboard */,
 				8D1FE7531BC49726005AE4BD /* Assets.xcassets */,
 				8D1FE7551BC49726005AE4BD /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1FE74F1BC49726005AE4BD /* ViewController.swift in Sources */,
+				8D1FE77B1BC49C54005AE4BD /* TableViewController.swift in Sources */,
 				8D1FE74D1BC49726005AE4BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
